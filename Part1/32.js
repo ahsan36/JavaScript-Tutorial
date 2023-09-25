@@ -65,7 +65,8 @@
 
 // super keyword
 
-// super 
+// super : used to call parent class constructor
+
 class Animal {
     constructor(name, age){
         this.name = name;

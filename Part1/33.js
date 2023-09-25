@@ -18,6 +18,6 @@ class Person{
 
 const person1 = new Person("Ahsan", "Ankit", 5);
 // console.log(person1.fullName());
-console.log(person1.fullName);
+console.log(person1.fullName); // Ahsan Ankit
 person1.fullName = "Mayank Kumar";
-console.log(person1);
+console.log(person1); // Person { firstName: 'Mayank', lastName: 'Kumar', age: 5 }

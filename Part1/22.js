@@ -21,6 +21,15 @@
 
 // app();
 
+// Output
+
+/**
+ *  inside app
+    hello from myFunc
+    9
+    30
+ */
+
 // lexical scope
 
 function myApp(){
@@ -36,3 +45,10 @@ function myApp(){
 }
 
 myApp();
+
+// Output
+
+/**
+ *  Value1
+    Inside function Value1 
+ */

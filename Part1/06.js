@@ -13,8 +13,8 @@ console.log(firstName[3]); // a
 
 //firstName.length
 
-console.log(firstName.length);
+console.log(firstName.length); // 5
 
 // last index : length - 1
 
-console.log(firstName[firstName.length-1]) // last index value will be print
+console.log(firstName[firstName.length-1]) // last index value will be print : (n)

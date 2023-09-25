@@ -2,7 +2,7 @@
 
 
 //  We can call function before (case of function declaration)
-hello(); 
+hello();  // hello world
 
 function hello(){
     console.log("hello world");
@@ -10,7 +10,7 @@ function hello(){
 
 // We can not call function before (case of function expression)
 
-// hello(); 
+// hello(); // error : Cannot access 'hello' before initialization
 
 // const hello = function(){
 //     console.log("hello world");
@@ -19,7 +19,7 @@ function hello(){
 
 // We can not call function before (case of arrow function)
 
-// hello(); 
+// hello(); // error : Cannot access 'hello' before initialization
 
 // const hello = () => {
 //     console.log("hello world");

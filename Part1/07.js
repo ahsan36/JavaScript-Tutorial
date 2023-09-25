@@ -14,30 +14,30 @@
 
 // let newString = firstName.trim(); //create a new string 
 
-// console.log(newString); //it create a new string Ahsan
+// console.log(newString); //it create a new string "Ahsan"
 
-// console.log(newString.length); // length 5 because it create a new string Ahsan 
+// console.log(newString.length); // length 5 because it create a new string "Ahsan" 
 
 // OR we can do this
 
 // firstName = firstName.trim(); //create a new string 
 
-// console.log(firstName); //it create a new string Ahsan
+// console.log(firstName); //it create a new string "Ahsan"
 
-// console.log(firstName.length);  // length 5 because it create a new string Ahsan 
+// console.log(firstName.length);  // length 5 because it create a new string "Ahsan" 
 
 
 //toUpperCase()
 
 // let firstName = "Ahsan"
 
-// console.log(firstName.toUpperCase());
+// console.log(firstName.toUpperCase()); // AHSAN
 
 
 //toLowerCase
 
 // let firstName = "Ahsan";
-// console.log(firstName.toLowerCase());
+// console.log(firstName.toLowerCase()); // ahsan
 
 
 //slice()

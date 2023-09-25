@@ -2,19 +2,19 @@
 // reference type
 // how to create array
 
-// let fruits = ["apple", "mango", "graps"];
-// console.log(fruits);
+// let fruits = ["apple", "mango", "grapes"];
+// console.log(fruits); // ['apple', 'mango', 'grapes'];
 // console.log(fruits[1]); //mango
 
 // let mixed = [1, 2, 3, "string", null, undefined];
-// console.log(mixed);
+// console.log(mixed); // [1, 2, 3, 'string', null, undefined];
 
 
-// let fruits = ["apple", "mango", "graps"];
+// let fruits = ["apple", "mango", "grapes"];
 // console.log(fruits);
 
 // fruits[1] = "banana";
-// console.log(fruits);
+// console.log(fruits); // [ 'apple', 'banana', 'grapes' ]
 
 // console.log(typeof fruits); //object
 
@@ -22,7 +22,7 @@
 
 // array push pop
 
-// let fruits = ["apple", "mango", "graps"];
+// let fruits = ["apple", "mango", "grapes"];
 // console.log(fruits);
 
 // push :- add in last
@@ -33,7 +33,7 @@
 //pop :- remove from last and return removed element
 
 // fruits.pop();
-// console.log(fruits);
+// console.log(fruits); 
 
 // and return removed element
 
@@ -42,14 +42,14 @@
 
 // console.log(fruits);
 
-// unshift :- add in strating
+// unshift :- add in starting
 
-// let fruits = ["apple", "mango", "graps"];
+// let fruits = ["apple", "mango", "grapes"];
 // fruits.unshift("banana");
 // console.log(fruits);
 
-//shift :- remove from strating
+//shift :- remove from starting
 
-let fruits = ["apple", "mango", "graps"];
+let fruits = ["apple", "mango", "grapes"];
 fruits.shift();
 console.log(fruits);

@@ -24,7 +24,7 @@
 // console.log(ans);  // 4 + 1 = 5
 
 // const ans = addTwo(4, 6); 
-// console.log(ans);
+// console.log(ans); // 10
 
 
 // rest parameter
@@ -37,6 +37,14 @@
 
 // myFunc(2, 3, 4, 5, 6);
 
+// Output
+
+/**
+ *  a is 2
+    b is 3
+    c is 4,5,6
+ */
+
 
 // function addAll(...numbers) {
 //     let total = 0;
@@ -48,7 +56,7 @@
 // }
 
 // const ans = addAll(1, 2, 3, 4, 5);
-// console.log(ans);
+// console.log(ans); // 15
 
 
 // parameter destructuring
@@ -63,7 +71,7 @@ const person = {
 //     console.log(obj.gender);
 // }
 
-// printDeatails(person);
+// printDeatails(person); // Ahsan Male
 
 // parameter destructuring
 
@@ -72,7 +80,7 @@ const person = {
 //     console.log(gender);
 // }
 
-// printDeatails(person);
+// printDeatails(person); // Ahsan Male
 
 
 // callback function
@@ -87,3 +95,8 @@ function myFunc (callback){
 }
 
 myFunc(myFunc2);
+
+// Output:
+
+// hello i am func
+// hello world

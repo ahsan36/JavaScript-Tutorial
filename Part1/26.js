@@ -1,4 +1,4 @@
-// map method
+// map method : creates an array by calling a specific function on each element present in the parent array
 
 // const numbers = [3, 4, 6, 1, 8];
 
@@ -7,7 +7,7 @@
 // }
 
 // const squareNumber = numbers.map(square);
-// console.log(squareNumber);
+// console.log(squareNumber); // [ 9, 16, 36, 1, 64 ]
 
 
 // const user = [
@@ -20,11 +20,10 @@
 //     return user.firstName;
 // })
 
-// console.log(userName)
+// console.log(userName) // [ 'Ahsan', 'Ankit', 'Mayank' ]
 
 
-
-// filter function
+// filter function : creates a new array filled with elements that pass a test provided by a function
 
 // const numbers = [1, 3, 2, 6, 4, 8];
 
@@ -36,11 +35,11 @@
 //     return number % 2 === 0;
 // })
 
-// console.log(evenNumbers);
+// console.log(evenNumbers); // [ 2, 6, 4, 8 ]
 
 
 
-// reduce method
+// reduce method :  used to reduce the array to a single value
 
 // const numbers = [1, 2, 3, 4, 5];
 
@@ -61,4 +60,4 @@ const totalAmount = userCart.reduce((totalPrice, currentProduct) =>{
     return totalPrice + currentProduct.price;
 }, 0);
 
-console.log(totalAmount);
+console.log(totalAmount); // 49000

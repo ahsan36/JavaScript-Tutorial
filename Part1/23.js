@@ -10,7 +10,7 @@
 //     // console.log(firstName); // Ahsan
 // }
 
-// console.log(firstName);
+// console.log(firstName); // error : firstName is not defined
 
 // // const
 
@@ -19,7 +19,7 @@
 //     // console.log(firstName); // Ankit
 // }
 
-// console.log(firstName);
+// console.log(firstName); // error : firstName is not defined
 
 
 // var is function scope

@@ -57,7 +57,9 @@
 // const navItems = document.getElementsByTagName("a");
 
 // const navItems = document.querySelectorAll("a");
+
 //for loop
+
 // for(let i=0; i<navItems.length; i++){
 //     const navItem = navItems[i];
 

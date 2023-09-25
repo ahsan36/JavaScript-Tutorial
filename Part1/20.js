@@ -4,7 +4,7 @@ const singHappyBirthday = () => {
     console.log("happy birthday to you.....")
 }
 
-singHappyBirthday();
+singHappyBirthday(); // happy birthday to you.....
 
 
 
@@ -12,7 +12,7 @@ const sumTwoNumber = (num1, num2) => {
     return num1 + num2;
 }
 
-console.log(sumTwoNumber(5, 6));
+console.log(sumTwoNumber(5, 6)); // 11
 
 
 
@@ -27,6 +27,6 @@ const findTarget = (array, target) => {
 }
 
 const myArray = [1, 3, 8, 9];
-const ans = findTarget(myArray, 8);
+const ans = findTarget(myArray, 8); 
 
-console.log(ans);
+console.log(ans); // 2

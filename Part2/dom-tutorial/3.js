@@ -5,7 +5,7 @@ const sectionTodo = document.querySelector(".section-todo");
 // sectionTodo.classList.remove("container");
 
 //toggle
-// if class exist yhen remove it otherwise add it
+// if class exist then remove it otherwise add it
 // sectionTodo.classList.toggle("bg-dark"); // add
 // sectionTodo.classList.toggle("bg-dark"); // remove
 

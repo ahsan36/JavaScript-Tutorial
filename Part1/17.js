@@ -47,17 +47,18 @@ const person =  {
 // for(let key in person){
 //     // console.log(key); // name age hobbies
 
-//     // console.log(person[key]);
+//     // console.log(person[key]); Ahsan 22 [ 'guitar', 'sleeping' ]
 
-//     console.log(`${key} : ${person[key]}`);
+
+//     console.log(`${key} : ${person[key]}`); name : Ahsan age : 22 hobbies : guitar,sleeping
 // }
 
 // Object.keys
 
-// console.log(Object.keys(person));
+// console.log(Object.keys(person)); [ 'name', 'age', 'hobbies' ]
 
 // for of loop
 
 for(let key of Object.keys(person)){
-    console.log(person[key]);
+    console.log(person[key]); // Ahsan 22 [ 'guitar', 'sleeping' ]
 }

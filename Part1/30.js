@@ -24,3 +24,14 @@ const user2 = createUser('Ankit', 'Tasif', 'xyz@gmail.com', 23, "address");
 console.log(user1);
 console.log(user1.about());
 // console.log(user3.sing());
+
+// Output:
+
+// {
+//     firstName: 'Ahsan',
+//     lastName: 'Mayank',
+//     email: 'abc@gmail.com',
+//     age: 22,
+//     address: 'my address'
+//   }
+//   Ahsan is 22 years old.

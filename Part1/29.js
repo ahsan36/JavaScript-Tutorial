@@ -34,9 +34,9 @@ const user2 = {
 }
 
 // apply
-// about.apply(user2, ["guitar", "bach"]);
+// about.apply(user2, ["guitar", "bach"]); // Ankit 23 guitar bach
 
 //bind
 
 const func = about.bind(user2, "guitar", "bach");
-func();
+func(); // Ankit 23 guitar bach

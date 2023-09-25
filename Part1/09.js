@@ -5,7 +5,7 @@
 
 // let fullName = string1 +" "+ string2;
 
-// console.log(fullName);
+// console.log(fullName); // Ahsan Ansari
 
 let str1 = "17";
 let str2 = "10";
