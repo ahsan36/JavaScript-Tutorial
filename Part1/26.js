@@ -1,4 +1,4 @@
-// map method : creates an array by calling a specific function on each element present in the parent array
+// map method : creates a new array by calling a specific function on each element present in the parent array
 
 // const numbers = [3, 4, 6, 1, 8];
 
@@ -49,11 +49,17 @@
 
 // console.log(sum);
 
+// accumulator          currentValue      return 
+// 1                        2               3
+// 3                        3               6
+// 6                        4               10
+// 10                       5               15
+
 
 const userCart = [
     {productId : 1, productName : "Mobile", price : 12000},
-    {productId : 2, productName : "Laptop", price : 15000},
-    {productId : 3, productName : "Tv", price : 22000}
+    {productId : 2, productName : "Laptop", price : 22000},
+    {productId : 3, productName : "Tv", price : 15000}
 ]
 
 const totalAmount = userCart.reduce((totalPrice, currentProduct) =>{
@@ -61,3 +67,8 @@ const totalAmount = userCart.reduce((totalPrice, currentProduct) =>{
 }, 0);
 
 console.log(totalAmount); // 49000
+
+// totalPrice              currentValue            return
+// 0                            {}                  12000
+// 12000                      22000                 34000
+// 34000                      15000                 49000

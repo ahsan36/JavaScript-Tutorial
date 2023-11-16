@@ -29,7 +29,7 @@
 // const user3 = new CreateUser('mohit', 'vashsitha', 'harshit@gmail.com', 17, "my address");
 // // console.log(Object.getPrototypeOf(user1));
 
-// console.log(user1.about());
+// console.log(user1.about()); // harshit is 18 years old.
 
 
 // extend keyword
@@ -58,8 +58,8 @@
 // } 
 
 // const tommy = new Dog("tommy", 3);
-// console.log(tommy);
-// console.log(tommy.isCute());
+// console.log(tommy); // Dog { name: 'tommy', age: 3 }
+// console.log(tommy.isCute()); // true
 
 
 
@@ -98,4 +98,4 @@ class Dog extends Animal{
 } 
 // object / instance 
 const tommy = new Dog("tommy", 3,45);
-console.log(tommy.run());
+console.log(tommy.run()); // tommy is running at 45kmph

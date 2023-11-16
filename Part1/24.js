@@ -83,7 +83,7 @@ const person = {
 // printDeatails(person); // Ahsan Male
 
 
-// callback function
+// callback function : it is a function passed as an argument to another function
 
 function myFunc2 (){
     console.log("hello world");

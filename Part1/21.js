@@ -1,4 +1,5 @@
-// hoisting
+// hoisting : During the creation phase javaScript engine moves your 
+//            variable and function declaration to the top of the code
 
 
 //  We can call function before (case of function declaration)

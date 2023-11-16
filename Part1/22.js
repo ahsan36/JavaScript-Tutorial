@@ -30,10 +30,12 @@
     30
  */
 
-// lexical scope
+// lexical scope : also called static scope
+
+const myVar = "Value1"
 
 function myApp(){
-    const myVar = "Value1";
+    // const myVar = "Value1";
 
     function myFunc(){
         console.log("Inside function", myVar);

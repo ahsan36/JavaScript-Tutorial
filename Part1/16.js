@@ -35,3 +35,18 @@ const fruits = ["apple", "mango", "grapes"];
 for(let index in fruits){
     console.log(fruits[index]); // apple mango grapes
 }
+
+//  Array Destructuring
+let array1 = ["apple", "mango", "grapes", "banana"];
+
+const [myvar, myvar2] = array1;
+console.log(myvar); // apple
+console.log(myvar2); // mango
+
+// Rest operator
+
+// const [myvar, myvar2, ...myvar3] = array1;
+
+// console.log(myvar); // apple
+// console.log(myvar2); // mango
+// console.log(myvar3); // [ 'grapes', 'banana' ]

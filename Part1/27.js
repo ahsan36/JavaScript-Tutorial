@@ -96,12 +96,12 @@
 
 // const userNames = ['Ahsan', 'Abcd', 'Ankit', 'Mayank', 'Aabc', 'ABC', 'Tasif'];
 // userNames.sort();
-// console.log(userNames);
+// console.log(userNames); //['ABC','Aabc', 'Abcd', 'Ahsan', 'Ankit', 'Mayank', 'Tasif']
 
 const numbers = [5, 9, 1200, 410, 3000];
 
 numbers.sort((a, b) => {
-    return a- b;
+    return a - b;
 });
 
 console.log(numbers);
