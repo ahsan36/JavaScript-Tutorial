@@ -16,7 +16,7 @@ const sectionTodo = document.querySelector(".section-todo");
 
 // // when you should not use it
 
-// // not only add new li item but it also randor old html code li item
+// // not only add new li item but it also render old html code li item
 // const todoList = document.querySelector('.todo-list');
 
 // todoList.innerHTML += "<li> New Todo </li>";

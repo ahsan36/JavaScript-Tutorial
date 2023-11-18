@@ -1,4 +1,11 @@
-// // Promise
+// // Promise : // Promise is an object that will produce a single value some time in the future.
+
+// promise is a good way to handle asynchronous operations. 
+// It is used to find out if the asynchronous operation is successfully completed or not.
+//  If the promise is successful, it will produce a resolved value, 
+// but if something goes wrong then it will produce a reason why the promise failed.
+
+
 // console.log("script start");
 // const bucket = ['coffee', 'chips','vegetables','salt','rice'];
 
@@ -113,7 +120,7 @@ myPromise()
     .then((value)=>{
       console.log(value);
       value += "bar";
-      return value
+      return value; // yha Promise return ho rha hai, value return nhi ho rha hai 
     })
     .then((value) =>{
       console.log(value);

@@ -1,4 +1,4 @@
-// setInterval
+// setInterval : The setInterval() function is commonly used to set a delay for functions that are executed again and again
 
 // console.log("script start");
 // // setInterval(() => {

@@ -1,4 +1,5 @@
-// understood callback
+// understood callback : A callback is a function passed as an argument to another function.
+//  Any function that is passed as an argument to another function so that it can be executed in that other function is called as a callback function.
 
 // function myFunc(callback) {
 //     console.log("function is doing task 1");
